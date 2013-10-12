@@ -1,8 +1,10 @@
 package screenObjects;
 
-public class Protagoinist extends screenObjects.RotatingTwoDScreenObject implements engine.Moveable {
+public class Protagoinist extends screenObjects.AnimatedRotatingTwoDObject implements engine.Moveable {
 
-	
+	public Protagoinist() {
+		super();
+	}
 	
 	@Override
 	public void move() {
